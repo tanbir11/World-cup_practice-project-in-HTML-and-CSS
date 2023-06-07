@@ -64,12 +64,12 @@ body {
 }
 
 .Team {
-
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: space-between;
-
+ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
 }
+
 
 .match {
 
@@ -119,6 +119,14 @@ body {
 .player_photo{
     height: 200px;
 }
+.Flag_photo{
+   
+    height: 70px;
+    width: 110px;
+   
+
+}
+
 .Transfer {
 
     display: flex;
